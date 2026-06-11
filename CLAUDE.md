@@ -11,6 +11,20 @@ npm install
 npm run dev
 ```
 
+## Deploy
+
+Live at https://duqins.github.io/sanara/ (GitHub Pages, repo duqins/sanara,
+`gh-pages` branch). Ship an update with:
+
+```
+npm run deploy
+```
+
+All asset/manifest/SW paths are relative (`base: "./"` in vite.config.js), so
+the build works at a site root, the Pages subpath, or a LAN preview alike.
+Remember to bump `VERSION` in `public/sw.js` so installed phones pick up the
+new shell.
+
 No environment variables. No backend. React 18, Vite 5, zero UI libraries — all CSS is a template string injected via a `<style>` tag, all graphics are hand-rolled inline SVG.
 
 ## How the code is organized
