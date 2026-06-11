@@ -1,0 +1,16 @@
+{
+  "name": "Sanara — Abu Dhabi Shore Fishing",
+  "short_name": "Sanara",
+  "description": "Bite forecast, spot picker, tackle matcher, terrain guide and catch log for Abu Dhabi shore fishing.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#081C28",
+  "theme_color": "#081C28",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "./icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

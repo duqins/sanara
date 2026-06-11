@@ -1,0 +1,58 @@
+export const POWER_RANK = { UL: 0, L: 1, ML: 2, M: 3, MH: 4 };
+
+export const TECHNIQUES = [
+  {
+    id: "plastics", name: "Light soft plastics", rig: "jighead",
+    rod: "6'8\"–7'6\" Light–ML, fast tip", reel: "2000–2500", line: "PE 0.6–1.0",
+    leader: "8–14 lb fluoro, ~1 m", terminal: "3.5–10 g jigheads, 2.5\"–3.5\" paddle tails and shrimp imitations",
+    targets: "Sheri, jesh, badah, hamra, small qabit",
+    where: "Everywhere — the bread-and-butter Abu Dhabi shore technique.",
+    pe: [0.6, 1.0], pw: [1, 2],
+    fit: "Your 7'0\" Light with PE 0.8 and the 2000 is exactly this rod. Lean on it.",
+  },
+  {
+    id: "jigging", name: "Micro shore jigging (15–30 g)", rig: "jig",
+    rod: "8'–9' ML–M, regular-fast", reel: "3000–4000", line: "PE 1.0–1.5",
+    leader: "20–25 lb fluoro, 1.5 m", terminal: "15–30 g slow-pitch or casting jigs, single assist up",
+    targets: "Qabit, jesh, winter chanad, sheri on the drop",
+    where: "Breakwaters and channels with depth and flow.",
+    pe: [1.0, 1.5], pw: [2, 3],
+    fit: "PE 0.8 handles 15–20 g jigs if you ease the drag, but near rocks it's a stretch — a PE 1.5 setup is the honest upgrade.",
+  },
+  {
+    id: "topwater", name: "Topwater for queenfish", rig: "pencil",
+    rod: "8'–9'6\" M, moderate-fast", reel: "4000", line: "PE 1.5–2.0",
+    leader: "30 lb fluoro, 1.5 m", terminal: "20–40 g pencils and skipping poppers, upgraded trebles or singles",
+    targets: "Qabit, jesh, barracuda",
+    where: "Yas rocks, Hudayriat, open breakwaters at first light, Oct–Apr.",
+    pe: [1.5, 2.0], pw: [3, 3],
+    fit: "Out of range for the light setup — queenies will empty a 2000 on PE 0.8. This is the second-rod argument.",
+  },
+  {
+    id: "bottom", name: "Bottom rig (dropper)", rig: "dropper",
+    rod: "9'–12' MH surf or boat rod", reel: "4000–6000", line: "20 lb mono or PE 2 + shock",
+    leader: "30–40 lb rig body", terminal: "2-hook dropper, size 4–1/0, 30–60 g sinker, shrimp / squid / cuttle strips",
+    targets: "Sheri, faskar, sobaity, grunter, catfish",
+    where: "Breakwaters, surf gutters, harbour walls — the soak-and-wait game.",
+    pe: [1.5, 3.0], pw: [3, 4],
+    fit: "Different tool entirely — keep a cheap MH rod rigged for bait sessions with your brother.",
+  },
+  {
+    id: "float", name: "Float and bread (safi)", rig: "float",
+    rod: "7'–9' Light, soft tip", reel: "2000", line: "6–10 lb mono or light braid",
+    leader: "6–8 lb fluoro", terminal: "Small waggler, size 8–6 hooks, bread flake, moss or small shrimp",
+    targets: "Safi, biyah, faskar, badah",
+    where: "Corniche and calm harbour corners, spring mornings.",
+    pe: [0.4, 0.8], pw: [0, 1],
+    fit: "Your setup does this perfectly — just tie on lighter fluoro and downsize hooks.",
+  },
+  {
+    id: "livebait", name: "Running sinker, bait at structure", rig: "running",
+    rod: "7'–8' ML–M", reel: "3000–4000", line: "PE 1.5",
+    leader: "30 lb fluoro, 80 cm", terminal: "Running egg sinker 10–20 g, swivel, 1/0 circle hook, live or fresh cut bait",
+    targets: "Hamra at night, sobaity, hamour near rocks",
+    where: "Bridge pilings, marina walls, mangrove drains after dark.",
+    pe: [1.2, 2.0], pw: [2, 3],
+    fit: "PE 0.8 lands small jacks in open water, but at the pilings they win. Stretch territory.",
+  },
+];
